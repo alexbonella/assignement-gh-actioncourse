@@ -2,7 +2,7 @@ name: ETL Assignment Pipeline
 
 on:
   schedule:
-  - cron: '17 20 * * *'
+  - cron: '0 17 * * *'
   workflow_dispatch:
 
 jobs:
