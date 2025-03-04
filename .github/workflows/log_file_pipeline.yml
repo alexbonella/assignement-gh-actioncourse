@@ -3,6 +3,7 @@ name: ETL Assignment Pipeline
 on:
   schedule:
   - cron: '58 19 * * *'
+  workflow_dispatch:
 
 jobs:
   etl-pipeline:
