@@ -14,7 +14,7 @@ def log_message(message):
 # Function to load data
 @st.cache
 def load_data():
-    data = pd.read_csv('sales_data.csv')
+    data = pd.read_csv('data_sales_file.csv')
     print(f'Data loaded at {datetime.datetime.now()}')
     return data
 # Function to transform data
