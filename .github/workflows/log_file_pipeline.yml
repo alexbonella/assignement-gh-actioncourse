@@ -2,9 +2,8 @@ name: ETL Assignment Pipeline
 
 on:
   schedule:
-  - cron: '0 17 * * *'
-  workflow_dispatch:
-
+    - cron: '30 21 * * *'
+  
 jobs:
   etl-pipeline:
     runs-on: ubuntu-latest
