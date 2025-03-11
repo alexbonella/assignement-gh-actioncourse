@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import datetime
 
 # Define the log file
@@ -47,7 +46,7 @@ def main():
         # Save transformed data to a file
         transformed_data.to_csv('transformed_data.csv', index=False)
 
-        log_message(f'ETL job completed SUCCESS')
+        log_message('ETL job completed SUCCESS')
 
     except Exception as e:
         log_message(f'ETL job failed with error: {e}')
